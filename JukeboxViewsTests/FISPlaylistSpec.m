@@ -24,32 +24,32 @@ describe(@"FISPlaylist", ^{
         holdOnBeStrong = [[FISSong alloc] initWithTitle:@"Hold on Be Strong"
                                                  artist:@"Matoma vs Big Poppa"
                                                   album:@"The Internet 1"
-                                               fileName:@"hold_on_be_strong" ];
+                                               filename:@"hold_on_be_strong" ];
         
         higherLove = [[FISSong alloc] initWithTitle:@"Higher Love"
                                              artist:@"Matoma ft. James Vincent McMorrow"
                                               album:@"The Internet 2"
-                                           fileName:@"higher_love" ];
+                                           filename:@"higher_love" ];
         
         moMoney = [[FISSong alloc] initWithTitle:@"Mo Money Mo Problems"
                                           artist:@"Matoma ft. The Notorious B.I.G."
                                            album:@"The Internet 3"
-                                        fileName:@"mo_money_mo_problems" ];
+                                        filename:@"mo_money_mo_problems" ];
         
         oldThingBack = [[FISSong alloc] initWithTitle:@"Old Thing Back"
                                                artist:@"The Notorious B.I.G."
                                                 album:@"The Internet 4"
-                                             fileName:@"old_thing_back" ];
+                                             filename:@"old_thing_back" ];
         
         gangsta = [[FISSong alloc] initWithTitle:@"Gangsta Bleeding Love"
                                           artist:@"Matoma"
                                            album:@"The Internet 5"
-                                        fileName:@"gangsta_bleeding_love" ];
+                                        filename:@"gangsta_bleeding_love" ];
         
         bailando = [[FISSong alloc] initWithTitle:@"Bailando"
                                            artist:@"Enrique Iglesias ft. Sean Paul"
                                             album:@"The Internet 6"
-                                         fileName:@"bailando" ];
+                                         filename:@"bailando" ];
     });
     
     beforeEach(^{

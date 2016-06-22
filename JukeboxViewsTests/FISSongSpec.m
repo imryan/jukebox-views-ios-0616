@@ -19,7 +19,7 @@ describe(@"FISSong", ^{
         holdOnBeStrong = [[FISSong alloc] initWithTitle:@"Hold on Be Strong"
                                                  artist:@"Matoma vs Big Poppa"
                                                   album:@"The Internet 1"
-                                               fileName:@"hold_on_be_strong"];
+                                               filename:@"hold_on_be_strong"];
     });
 
     describe(@"default initializer", ^{
@@ -27,7 +27,7 @@ describe(@"FISSong", ^{
             expect(defaultSong.title).to.equal(@"");
             expect(defaultSong.artist).to.equal(@"");
             expect(defaultSong.album).to.equal(@"");
-            expect(defaultSong.fileName).to.equal(@"");
+            expect(defaultSong.filename).to.equal(@"");
         });
     });
     
@@ -36,7 +36,7 @@ describe(@"FISSong", ^{
             expect(holdOnBeStrong.title).to.equal(@"Hold on Be Strong");
             expect(holdOnBeStrong.artist).to.equal(@"Matoma vs Big Poppa");
             expect(holdOnBeStrong.album).to.equal(@"The Internet 1");
-            expect(holdOnBeStrong.fileName).to.equal(@"hold_on_be_strong");
+            expect(holdOnBeStrong.filename).to.equal(@"hold_on_be_strong");
         });
     });
 });
